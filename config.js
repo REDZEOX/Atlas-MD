@@ -5,14 +5,14 @@ require("./BotCharacters.js");
 require("dotenv").config();
 let gg = process.env.MODS;
 if (!gg) {
-  gg = "919172673114";   // You can Change this number //
+  gg = "918252219860";   // You can Change this number //
 }
 
 // -------------------------------------------------------------- //
 
 
 global.owner = gg.split(",");
-global.mongodb = process.env.MONGODB || "NONE";
+global.mongodb = process.env.MONGODB || "mongodb+srv://<rajibmahtorakiya1539>:<NwimDfLgKLsSJtEl>@cluster01.fa3dn.mongodb.net/?retryWrites=true&w=majority&appName=Cluster01";
 global.sessionId = process.env.SESSION_ID || "ok";
 global.prefa = process.env.PREFIX || "-";
 global.tenorApiKey =
